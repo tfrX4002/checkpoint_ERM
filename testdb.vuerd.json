@@ -1,0 +1,546 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -8.88888888888889,
+    "scrollLeft": -0.6666666666666666,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "testdb",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Gymnasiums",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Gymnasium_id",
+            "comment": "",
+            "dataType": "INT(11)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 88.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ec65b9b2-48bb-41f5-ae95-e668aab9e90f"
+          },
+          {
+            "name": "Gymnasium_name",
+            "comment": "",
+            "dataType": "VARCHAR(11)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.09716796875,
+              "widthComment": 60,
+              "widthDataType": 86.75390625,
+              "widthDefault": 60
+            },
+            "id": "291bdf1b-22b9-4bc9-b34f-7f2c8bdcab8d"
+          },
+          {
+            "name": "Gymnasium_address",
+            "comment": "",
+            "dataType": "VARCHAR(250)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 124.8271484375,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "690098bb-76d2-43cb-a7c5-c5af2e1d1a51"
+          },
+          {
+            "name": "Gymnasium_number",
+            "comment": "",
+            "dataType": "VARCHAR(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 122.65625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "9f02710e-5103-422e-a09f-2e350546c69b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 11.3333,
+          "top": 21.3333,
+          "zIndex": 137,
+          "widthName": 77.84814453125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0bdf7d9c-e7c7-4f63-ba13-70cc596326d1"
+      },
+      {
+        "name": "Coaches",
+        "comment": "",
+        "columns": [
+          {
+            "name": "coache_id",
+            "comment": "",
+            "dataType": "INT(2)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.26806640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f75561d7-04c1-4dfc-8a83-3ca0c8a4f358"
+          },
+          {
+            "name": "coache_lastname",
+            "comment": "",
+            "dataType": "VARCHAR(2)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.89892578125,
+              "widthComment": 60,
+              "widthDataType": 80.48876953125,
+              "widthDefault": 60
+            },
+            "id": "e5fcfc66-b589-4504-841a-bdb9d0f79ec7"
+          },
+          {
+            "name": "coache_firstname",
+            "comment": "",
+            "dataType": "VARCHAR(5)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 104.60986328125,
+              "widthComment": 60,
+              "widthDataType": 80.48876953125,
+              "widthDefault": 60
+            },
+            "id": "ca327a38-3874-4bb4-944a-16f753cbad4f"
+          },
+          {
+            "name": "coache_age",
+            "comment": "",
+            "dataType": "VARCHAR(56)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.83984375,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "be99b848-b0aa-4ab0-a001-19a38a6693a3"
+          },
+          {
+            "name": "coache_speciality",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 104.6162109375,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "220030df-cd46-4a9b-b684-9056bfd9043f"
+          },
+          {
+            "name": "Gymnasium_id",
+            "comment": "",
+            "dataType": "INT(11)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 88.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "59afdfd2-1256-4bcf-8002-ea17464d2bb3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 592.6695,
+          "top": 1.3334,
+          "zIndex": 136,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0db75df5-f756-4837-ba33-0c0aac42a1cd"
+      },
+      {
+        "name": "Members",
+        "comment": "",
+        "columns": [
+          {
+            "name": "member_id",
+            "comment": "",
+            "dataType": "INT(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.025390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "67cb522f-fc89-4353-bce4-85a449fff261"
+          },
+          {
+            "name": "member_lastname",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 109.65625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "ea78b6a6-217f-439a-9a38-c4f3095f7b13"
+          },
+          {
+            "name": "member_firstname",
+            "comment": "",
+            "dataType": "VARCHAR(46)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 110.3671875,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "b2d670cc-a26d-4b9a-b3ff-1bb5dfc32568"
+          },
+          {
+            "name": "member_address",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.15625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "dfcb698f-c8b0-4e9d-88b0-c72a038e7614"
+          },
+          {
+            "name": "member_birthday",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.15625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "c1d6ce5f-872e-4f90-863e-68f634fa6149"
+          },
+          {
+            "name": "member_gender",
+            "comment": "",
+            "dataType": "VARCHAR(2)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 97.38623046875,
+              "widthComment": 60,
+              "widthDataType": 80.48876953125,
+              "widthDefault": 60
+            },
+            "id": "0c4b28b5-382c-4652-8960-3e56f0fcc2e9"
+          },
+          {
+            "name": "Gymnasium_id",
+            "comment": "",
+            "dataType": "INT(11)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 88.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "785b8473-11d9-4221-877c-c10e727df9f7"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 23.3335,
+          "top": 293.3352,
+          "zIndex": 138,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d87cd048-8f5d-40a1-b3c1-5d46d3d8f309"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0bdf7d9c-e7c7-4f63-ba13-70cc596326d1",
+          "columnIds": [
+            "ec65b9b2-48bb-41f5-ae95-e668aab9e90f"
+          ],
+          "x": 458.10917890625,
+          "y": 96.83330000000001,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "0db75df5-f756-4837-ba33-0c0aac42a1cd",
+          "columnIds": [
+            "59afdfd2-1256-4bcf-8002-ea17464d2bb3"
+          ],
+          "x": 592.6695,
+          "y": 97.3334,
+          "direction": "left"
+        },
+        "constraintName": "fk_gymnasiums_to_coaches",
+        "visible": true,
+        "id": "a1b5a0f8-23f5-4671-bdd0-d11e3493fe16"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "0bdf7d9c-e7c7-4f63-ba13-70cc596326d1",
+          "columnIds": [
+            "ec65b9b2-48bb-41f5-ae95-e668aab9e90f"
+          ],
+          "x": 234.721239453125,
+          "y": 172.3333,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "d87cd048-8f5d-40a1-b3c1-5d46d3d8f309",
+          "columnIds": [
+            "785b8473-11d9-4221-877c-c10e727df9f7"
+          ],
+          "x": 235.87646875000002,
+          "y": 293.3352,
+          "direction": "top"
+        },
+        "constraintName": "fk_gymnasiums_to_members",
+        "visible": true,
+        "id": "fdd2e695-c94f-45ba-bc21-e99a75049ef1"
+      }
+    ]
+  }
+}
